@@ -18,8 +18,7 @@
   },
   "devDependencies": {
     "ember-engines": "0.5.18",
-    "demo-external-engine": "file:../demo-external-engine",
-    "demo-external-engine-two": "file:../demo-external-engine-two",
+    "demo-external-engine": "0.0.0",
     "conflictable-addon": "1.0.0",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
@@ -47,12 +46,5 @@
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
-  },
-  "ember-addon": {
-    "paths": [
-      "lib/demo-in-repo-engine",
-      "lib/demo-in-repo-engine-two",
-      "lib/demo-in-repo-lazy-engine"
-    ]
   }
 }
