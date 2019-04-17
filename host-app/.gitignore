@@ -9,6 +9,7 @@ node_modules
 bower_components
 
 # misc
+debug
 /.sass-cache
 /connect.lock
 /coverage/*
