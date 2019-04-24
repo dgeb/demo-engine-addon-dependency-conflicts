@@ -1,6 +1,22 @@
-<p>demo-lazy-engine loaded</p>
+<h2>demo-lazy-engine</h2>
 
 <h3>addon-version helper</h3>
-<p>{{addon-version}}</p>
+<section>
+  <p><strong>expected:</strong></p>
+  <p>conflictable-addon v1.3.0</p>
+</section>
+<section>
+  <p><strong>actual:</strong></p>
+  <p>{{addon-version}}</p>
+</section>
 
-{{!-- <AddonVersionLabel @title="addon-version-label component"></AddonVersionLabel> --}}
+<h3>addon-version-label component</h3>
+<section>
+  <p><strong>expected:</strong></p>
+  <p>conflictable-component-addon v3.0.0</p>
+  <p>conflictable-addon v1.4.0</p>
+</section>
+<section>
+  <p><strong>actual:</strong></p>
+  <p><AddonVersionLabel></AddonVersionLabel></p>
+</section>
