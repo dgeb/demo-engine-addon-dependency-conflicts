@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "conflictable-addon": "1.4.0",
+    "conflictable-component-addon": "1.0.0",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-htmlbars": "^2.0.1"
   },

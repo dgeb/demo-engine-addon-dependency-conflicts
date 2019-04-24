@@ -2968,6 +2968,33 @@ conflictable-addon@1.4.0:
   dependencies:
     ember-cli-babel "^6.6.0"
 
+conflictable-component-addon@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/conflictable-component-addon/-/conflictable-component-addon-1.0.0.tgz#04cff7e456035e109105099f1ebef1cce84bd308"
+  integrity sha512-cEvZFo59vlzqW850FrJppPmo5mQqk7tmPsoPHZppB6CBdfA4FruJq3/nqjp1hcHVcAEuRx2EkZvFznw66zkcOw==
+  dependencies:
+    conflictable-addon "1.0.0"
+    ember-cli-babel "^7.1.2"
+    ember-cli-htmlbars "^3.0.0"
+
+conflictable-component-addon@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/conflictable-component-addon/-/conflictable-component-addon-2.0.0.tgz#2b3ca0aac3ea31e5a8539369fa6d8635b8b4edde"
+  integrity sha512-KCft3vMOmhBYsv4r2E+x1a5ZQrjzX3W6O/dcqfK2CpL1CkIn84QvKFWD40Vn7X5wD86beE+8fnEZh73+o3NJiw==
+  dependencies:
+    conflictable-addon "1.0.0"
+    ember-cli-babel "^7.1.2"
+    ember-cli-htmlbars "^3.0.0"
+
+conflictable-component-addon@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/conflictable-component-addon/-/conflictable-component-addon-3.0.0.tgz#0866f290f3af4fe3178ca87130aaea64451800c0"
+  integrity sha512-+89gfgl+dlxEKQzAzLPWS7kpqJwoRKxcvjWaXQuFnU9LlaJmaXDazRzKu5XNwTnzCBGmTNS6Cmfh0Qgs0jKPLA==
+  dependencies:
+    conflictable-addon "1.4.0"
+    ember-cli-babel "^7.1.2"
+    ember-cli-htmlbars "^3.0.0"
+
 connect@^3.3.3, connect@^3.6.6:
   version "3.6.6"
   resolved "https://registry.yarnpkg.com/connect/-/connect-3.6.6.tgz#09eff6c55af7236e137135a72574858b6786f524"
@@ -3226,27 +3253,6 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
-"demo-engine-two@file:packages/demo-engine-two":
-  version "0.0.0"
-  dependencies:
-    conflictable-addon "1.1.0"
-    ember-cli-babel "^6.6.0"
-    ember-cli-htmlbars "^2.0.1"
-
-"demo-engine@file:packages/demo-engine":
-  version "0.0.0"
-  dependencies:
-    conflictable-addon "1.4.0"
-    ember-cli-babel "^6.6.0"
-    ember-cli-htmlbars "^2.0.1"
-
-"demo-lazy-engine@file:packages/demo-lazy-engine":
-  version "0.0.0"
-  dependencies:
-    conflictable-addon "1.3.0"
-    ember-cli-babel "^6.6.0"
-    ember-cli-htmlbars "^2.0.1"
-
 denodeify@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/denodeify/-/denodeify-1.2.1.tgz#3a36287f5034e699e7577901052c2e6c94251631"
@@ -3438,7 +3444,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.4.3, ember-cli-babel@^7.5.0:
+ember-cli-babel@^7.1.2, ember-cli-babel@^7.4.3, ember-cli-babel@^7.5.0:
   version "7.7.3"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.7.3.tgz#f94709f6727583d18685ca6773a995877b87b8a0"
   integrity sha512-/LWwyKIoSlZQ7k52P+6agC7AhcOBqPJ5C2u27qXHVVxKvCtg6ahNuRk/KmfZmV4zkuw4EjTZxfJE1PzpFyHkXg==
