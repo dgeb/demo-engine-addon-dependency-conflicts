@@ -8,8 +8,8 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.mount('demo-engine');
-  // this.mount('demo-engine-two');
-  // this.mount('demo-lazy-engine');
+  this.mount('demo-engine-two');
+  this.mount('demo-lazy-engine');
 });
 
 export default Router;

@@ -23,6 +23,8 @@
     "broccoli-asset-rev": "^2.7.0",
     "conflictable-addon": "1.0.0",
     "demo-engine": "file:../demo-engine",
+    "demo-engine-two": "file:../demo-engine-two",
+    "demo-lazy-engine": "file:../demo-lazy-engine",
     "ember-ajax": "^3.1.0",
     "ember-cli": "~3.4.4",
     "ember-cli-addon-guard": "^0.1.1",
