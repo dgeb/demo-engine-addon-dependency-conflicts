@@ -28,7 +28,7 @@
     "demo-lazy-engine": "*",
     "ember-ajax": "^3.1.0",
     "ember-cli": "~3.4.4",
-    "ember-cli-addon-guard": "^0.1.1",
+    "ember-cli-addon-guard": "^0.2.0",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^6.16.0",
     "ember-cli-dependency-checker": "^3.0.0",
